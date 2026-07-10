@@ -22,7 +22,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/<YOUR_USERNAME>/<YOUR_GITOPS_REPO>.git
+    repoURL: https://github.com/Abdelaziz-Gbr/GitOps.git
     targetRevision: main
     path: overlays/production
 
