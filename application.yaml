@@ -15,7 +15,9 @@ metadata:
 
     argocd-image-updater.argoproj.io/app.kustomize.image-name: abdelazizgbr/nodejs-app
 
-    argocd-image-updater.argoproj.io/app.update-strategy: newest-build
+    argocd-image-updater.argoproj.io/app.update-strategy: latest
+    
+    argocd-image-updater.argoproj.io/git-credentials: secret:argocd/github-creds
 
 spec:
 
