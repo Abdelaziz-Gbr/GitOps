@@ -5,6 +5,3 @@ resources:
   - ../../base
 
 namespace: default
-
-commonLabels:
-  environment: production
