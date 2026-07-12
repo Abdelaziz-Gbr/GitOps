@@ -1,3 +1,0 @@
-kustomize:
-  images:
-  - abdelazizgbr/nodejs-app=docker.io/abdelazizgbr/nodejs-app:3
