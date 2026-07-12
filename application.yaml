@@ -40,3 +40,14 @@ spec:
 
     syncOptions:
       - CreateNamespace=true
+---
+apiVersion: argocd-image-updater.argoproj.io/v1alpha1
+kind: ImageUpdater
+metadata:
+  name: nodejs-image-updater
+  namespace: argocd
+
+spec:
+  applicationRefs:
+    - namePattern: "nodejs-app"
+      useAnnotations: true
